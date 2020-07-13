@@ -243,14 +243,14 @@ disqus:
 # DisqusJS評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: false
-  shortname:
-  siteName:
-  apikey:
-  api:
+  enable: true
+  shortname: lovekernel
+  siteName: lovekernel
+  apikey: pjrqKuIEwIKojrW9bc1ucwJGlqSK2BfdiaWKoZgVgnAyRYaUq2OkANCjUtX5xZAE
+  api: https://disqus.skk.moe/disqus/
   nocomment: # display when a blog post or an article has no comment attached
-  admin:
-  adminLabel:
+  admin: lovekernel
+  adminLabel: lovekernel
   count: false # dispaly comment count in top_img
 
 # livere(來必力)
