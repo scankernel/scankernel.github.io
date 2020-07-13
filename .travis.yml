@@ -12,6 +12,7 @@ cache:
 #   - npm install -g hexo-cli # 在 CI 环境内安装 Hexo  
 #   - npm install # 在根目录安装站点需要的依赖 
 script: 
+  - hexo clean
   - hexo generate # generate static files
 deploy: # 根据个人情况，这里会有所不同
   provider: pages
