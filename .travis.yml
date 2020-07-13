@@ -14,7 +14,6 @@ cache:
 script: 
   - hexo clean
   - hexo generate # generate static files
-  - gulp
 deploy: # 根据个人情况，这里会有所不同
   provider: pages
   skip_cleanup: true # 构建完成后不清除
