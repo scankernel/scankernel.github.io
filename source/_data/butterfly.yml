@@ -236,18 +236,18 @@ addtoany:
 # https://disqus.com/
 disqus:
   enable: false
-  shortname:
+  shortname: lovekernel
   count: false # dispaly comment count in top_img
 
 # Alternative Disqus - Render comments with Disqus API
 # DisqusJS評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: true
+  enable: false
   shortname: lovekernel
   siteName: lovekernel
   apikey: pjrqKuIEwIKojrW9bc1ucwJGlqSK2BfdiaWKoZgVgnAyRYaUq2OkANCjUtX5xZAE
-  api: https://disqus.skk.moe/disqus/
+  api: https://disqus.com/api/
   nocomment: # display when a blog post or an article has no comment attached
   admin: lovekernel
   adminLabel: lovekernel
@@ -278,13 +278,13 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  enable: true # if you want use valine,please set this value is true
+  appId: FiFluGBULsgG3CwGK0LibPVJ-gzGzoHsz #leancloud application app id
+  appKey: DFHgbcP892XjhM1N8XscM0rj # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: en # i18n: zh-CN/zh-TW/en/ja
-  placeholder: Please leave your footprints # valine comment input placeholder(like: Please leave your footprints )
+  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
+  placeholder: 有疑问？请评论，跟我细细道来。 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
@@ -398,7 +398,7 @@ google_adsense:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification:
+google_site_verification: 
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -406,7 +406,7 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification:
+baidu_site_verification: ZGGQbPlAzA
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/
@@ -609,7 +609,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 12/32/2019
+  publish_date: 2020/7/10
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
