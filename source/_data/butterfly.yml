@@ -10,10 +10,11 @@ menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
-  目录: /categories/ || fas fa-folder-open
-  列表||fas fa-list:
-    - 音乐 || /music/ || fas fa-music
-    - 电影 || /movies/ || fas fa-video
+  分类: /categories/ || fas fa-folder-open
+  资源列表: /list/ ||fas fa-list
+  # 列表||fas fa-list:
+  #   - 音乐 || /music/ || fas fa-music
+  #   - 电影 || /movies/ || fas fa-video
   友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -577,7 +578,7 @@ aside:
     enable: true
     description:
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
