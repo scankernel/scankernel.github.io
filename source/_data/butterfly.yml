@@ -369,7 +369,7 @@ ICP:
 # --------------------------------------
 
 # Baidu Analytics
-baidu_analytics:
+baidu_analytics: ece7abdfd88d441843cc798f6ca63383
 
 # Google Analytics
 google_analytics: UA-172426348-1
@@ -648,11 +648,11 @@ darkmode:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
-fancybox: true
+fancybox: false
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
@@ -821,3 +821,11 @@ CDN:
   aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
   aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
   meting_js: https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
+
+  # sitemap
+  sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
